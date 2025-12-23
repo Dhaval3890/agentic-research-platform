@@ -1,2 +1,0 @@
-# agentic-research-platform
-Proposal
