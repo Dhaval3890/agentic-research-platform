@@ -1,5 +1,59 @@
-.venv/
+# =========================
+# Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Environment / Secrets
+# =========================
 .env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# OS-specific
+# =========================
 .DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Outputs (Generated files)
+# =========================
+outputs/
+*.pdf
+
+# =========================
+# Ollama / Models (DO NOT COMMIT)
+# =========================
+.ollama/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
