@@ -1,6 +1,23 @@
-.env
-__pycache__
+# Python
+__pycache__/
 *.pyc
-.git
-venv
 
+# Virtual env
+.venv/
+venv/
+
+# Git
+.git/
+.gitignore
+
+# Outputs
+outputs/
+*.pdf
+
+# Secrets
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
